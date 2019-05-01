@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [{
+    "src": "api/default/index.js",
+    "use": "now-micro"
+  }],
+  "env": {
+    "SANITY_WRITE_TOKEN": "@sanity-write-token",
+    "SANITY_PROJECT_ID": "f1jux7ns",
+    "SANITY_DATASET_NAME": "production"
+  }
+}

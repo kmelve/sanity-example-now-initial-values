@@ -1,0 +1,22 @@
+{
+  "name": "sanity-default-values",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^0.140.11",
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.1",
+    "now-micro": "^0.3.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
