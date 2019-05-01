@@ -29,17 +29,3 @@ module.exports = async (req, res) => {
   }
   send(res, 200, 'ok');
 };
-
-/* const docs = await created
-    .reduce(
-      (trans, _id) =>
-        trans.patch(_id).setIfMissing({
-          title: 'Missing TITLE!!!',
-        }),
-      client.transaction()
-    )
-    .commit()
-    .catch(console.error);
-  console.log(docs);
-  };
-  */
